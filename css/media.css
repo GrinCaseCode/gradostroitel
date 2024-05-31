@@ -1,0 +1,302 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .billbord {
+        padding-top: 220px;
+        min-height: 645px;
+    }
+    .billbord .btn-main {
+        margin-top: 40px;
+    }
+    .title-block {
+        font-size: 22px;
+        margin-bottom: 22px;
+    }
+    .services-prices {
+        font-size: 13px;
+        padding: 55px 0;
+        line-height: 165%;
+    }
+    .title-section {
+        font-size: 32px;
+        margin-bottom: 18px;
+    }
+    .feedback__image img {
+        max-width: 650px;
+    }
+    .descr-big {
+        font-size: 16px
+    }
+    .btn-phone {
+        font-size: 16px;
+        height: 45px;
+        padding: 0 35px;
+    }
+    .item-related {
+        padding: 29px 22px;
+        padding-left: 55px;
+        font-size: 14px;
+        background-position: 14px 29px;
+    }
+    .item-portfolio {
+        height: 245px;
+        padding: 17px 25px;
+        font-size: 13px;
+    }
+    .item-portfolio__title {
+        font-size: 17px;
+    }
+    .item-sertificat {
+        height: 281px;
+        padding: 13px 10px;
+    }
+    .reviews {
+        padding-top: 45px;
+        padding-bottom: 55px;
+        font-size: 13px;
+        line-height: 160%;
+    }
+    .item-review {
+        padding: 15px 17px;
+        padding-bottom: 20px;
+        margin-bottom: 15px;
+    }
+    .item-review__head {
+        margin-bottom: 8px;
+    }
+    .item-service {
+        padding: 15px 15px;
+        height: 245px;
+        font-size: 16px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .billbord {
+        padding-top: 170px;
+        min-height: 490px;
+    }
+    .btn-main {
+        height: 55px;
+        padding: 0 32px;
+        font-size: 16px;
+    }
+    .title-small {
+        font-size: 18px;
+    }
+    .item-advantage {
+        max-width: 100%;
+    }
+    .item-advantage .title-small {
+        margin-bottom: 8px;
+    }
+    .advantages .row > div {
+        margin-bottom: 20px;
+    }
+    .advantages .row > div:last-child {
+        margin-bottom: 0;
+    }
+    .advantages {
+        padding: 40px 0;
+    }
+    .title-block {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .services-prices {
+        font-size: 14px;
+        padding: 40px 0;
+    }
+    .services-prices img {
+        margin-top: 20px;
+    }
+    .table-page table {
+        font-size: 14px;
+    }
+    .table-page table td:last-child {
+        white-space: nowrap;
+    }
+    .table-page table th {
+        font-size: 16px;
+    }
+    .table-page table th, .table-page table td {
+        padding: 7px 15px;
+    }
+    .services-prices .table-page {
+        margin-top: 40px;
+    }
+    .feedback .title-section {
+        margin-top: 0;
+    }
+    .feedback {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .feedback__image {
+        margin-right: -57px;
+        margin-top: 0;
+    }
+    .feedback__image img {
+        max-width: 500px;
+    }
+    .item-portfolio {
+        height: 365px;
+    }
+    .item-sertificat {
+        height: 490px;
+    }
+    .item-service {
+        height: 300px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .feedback__image {
+        margin-top: -30px;
+    }
+    .related .title-section {
+        margin-bottom: 31px;
+    }
+    .title-section {
+        font-size: 28px;
+        line-height: 120%;
+    }
+    .related {
+        padding-top: 35px;
+    }
+    .item-portfolio {
+        height: 270px;
+    }
+    .row.row_main > div {
+        margin-bottom: 18px;
+    }
+    .row.row_sertificats {
+        margin: 0 -3px;
+    }
+    .row.row_sertificats > div {
+        padding: 0 3px;
+    }
+    .item-sertificat {
+        height: 325px;
+        max-width: 223px;
+    }
+    .reviews .title-section {
+        margin: 15px 0;
+    }
+    .reviews {
+        padding-top: 28px;
+        padding-bottom: 40px;
+    }
+    .services .title-section {
+        margin-bottom: 28px;
+    }
+    .services {
+        padding-top: 29px;
+        padding-bottom: 43px;
+    }
+    .item-service {
+        height: 240px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .billbord {
+        font-size: 14px;
+        padding-top: 130px;
+        line-height: 140%;
+    }
+    .table-page table {
+        font-size: 13px;
+    }
+    .table-page table th {
+        font-size: 15px;
+    }
+    .table-page table th, .table-page table td {
+        padding: 7px 10px;
+    }
+    .feedback .btn-phone {
+        margin-top: 20px;
+    }
+    .feedback__image img {
+        max-width: 100%;
+    }
+    .feedback__image {
+        margin: 0 -15px;
+    }
+    .item-related {
+        padding: 25px 22px;
+        padding-left: 41px;
+        font-size: 13px;
+        background-position: 9px 25px;
+    }
+    .portfolio .title-section {
+        margin-bottom: 26px;
+    }
+    .portfolio {
+        padding-top: 20px;
+    }
+    .item-portfolio {
+        height: 210px;
+        padding: 17px 14px;
+        font-size: 12px;
+    }
+    .item-portfolio__title {
+        font-size: 15px;
+    }
+    .bottom-button {
+        padding-top: 34px;
+    }
+    .reviews {
+        padding-top: 22px;
+    }
+    .item-sertificat {
+        height: 237px;
+        max-width: 170px;
+        padding: 5px;
+    }
+    .item-service {
+        height: 210px;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+@media (min-width: 1600px) {
+
+}
